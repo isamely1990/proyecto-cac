@@ -1,0 +1,80 @@
+/* Paleta de colores: https://www.colorhunt.co/palette/f1f6f9394867212a3e9ba4b5
+#F1F6F9 | rgb(241, 246, 249)
+#394867 | rgb(57, 72, 103)
+#212A3E | rgb(33, 42, 62)
+#9BA4B5 | rgb(155, 164, 181)
+
+Logo: https://patternico.com/
+
+*/
+
+* {
+    
+}
+body {
+    background-image: url('../img/tile_background_white.png');
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    height: 185px;
+    width: 100%;
+}
+
+main {
+    width: 80%;
+}
+
+.brand {
+    width: 20%;
+    float: left;
+    max-width: 200px;
+    margin-left: 70px;
+}
+.menu {
+    width: 70%;
+    margin: 20px 20px;
+    color: #212A3E;
+    font-weight: bold;
+    font-size: 1.2em;
+    float: left;
+    
+}
+
+.menu-options li {
+    float: left;
+    list-style: none;
+    width: 25%;
+    text-align: center;
+}
+
+.clean {
+    clear: both;
+
+}
+
+.top-3 {
+    border-radius: 4px;
+    border: solid 3px #9BA4B5;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.best-location {
+    border-radius: 4px;
+    border: solid 3px #9BA4B5;
+    width: 15%;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.top-3 img, .best-location img {
+    width: 100%;
+    max-height: 200px;
+    clear: both;
+}
